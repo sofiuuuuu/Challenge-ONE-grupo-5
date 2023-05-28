@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>pagina2</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="pagina2.css">
+</head>
+<body>
+<main>
+    <section>
+        <textarea class="ingresotexto" rows="10" cols="30" placeholder="Ingresa el texto aqui"></textarea>
+        <div>
+        <h5 class="precauciones">&#10071;Solo en minúsculas y palabaras sin acento</h5>
+        </div>
+        <div class="botones">
+            <button class="encriptarbu" onclick="evento()">Encriptar</button> <button class="desencriptarbu" onclick="eventodesencrptar()">Desencriptar</button>
+        </div>
+    </section>
+    <section>
+        <textarea class="solucion" rows="11" cols="30" ></textarea>
+        <div>
+            <button class="copiar" onclick="copiar()">Copiar</button>
+        </div>
+    </section>
+</main>
+<script src="logica.js"></script>
+</body>
+</html>

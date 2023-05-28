@@ -1,0 +1,96 @@
+main{
+    font-size: 30px;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    padding: 20px;
+    background-color: #AAB2D5;
+    text-align: center;
+    border: 8px solid #495057;
+    border-radius: 30px;
+    transition: 1s all;
+    box-sizing: border-box;
+    aspect-ratio: 1;
+    min-width: min-content;
+    max-width: 70vh;
+}
+
+main:hover{
+    border-color: #052051;
+    box-shadow: 3px 3px 10px #052051;
+    width: 60%;
+    font-size: 32px;
+}
+
+body{
+    background-color: #E9ECF8;
+    background-image:linear-gradient(rgba(240,240,240,0.8),rgba(240,240,240,0.8)), url("imagenes/muñeco.png");
+    margin: 0;
+}
+
+.comenzar{
+    width: 250px;
+    height: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    background-color: #052051;
+    margin-right: 15px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.comenzar:hover{
+    background-color: #0d3c8d;
+    transform:scale(110%) ;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    background-size: 110px;
+    background-color: #052051;
+    align-items: flex-start;
+}
+
+.info{
+   color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 80px;
+    margin-top: 80px;
+    display: flex;
+    width: 350px;
+}
+
+.diamante{
+    display: flex;
+    height: 130px;
+    margin-top: 30px;
+}
+
+.redes{
+    color: #FFFFFF;
+    margin-left: 80px;
+    margin-top: 70px;
+}
+
+.redessociales{
+    display: flex;
+    color: #FFFFFF;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+ul{
+    list-style: none;
+}
+

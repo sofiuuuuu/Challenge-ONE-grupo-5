@@ -1,0 +1,146 @@
+*{
+    background-color: #E9ECF8;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+main {
+    margin-bottom: 50px;
+    margin-left: 180px;
+    margin-right: 300px;
+    display: flex;
+}
+
+.ingresotexto {
+    border: none;
+    color: #052051;
+    margin-top: 90px;
+    text-transform: lowercase;
+    box-sizing: border-box;
+    aspect-ratio: 1;
+    min-width: min-content;
+    max-width: 800vh;
+    margin-right: 20px;
+}
+
+::placeholder {
+    color: #052051;
+}
+
+.ingresotexto:focus {
+    outline: none;
+}
+
+.ingresotexto:hover {
+    border-color: #052051;
+    box-sizing: content-box;
+    box-shadow: 2px 2px 20px #052051;
+    border-radius: 5px;
+}
+
+.precauciones {
+    width: 350px;
+    height: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 40;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.botones {
+    display: flex;
+    margin-top: 18px;
+}
+
+.encriptarbu {
+    width: 250px;
+    height: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    background-color: #052051;
+    margin-right: 15px;
+}
+
+.encriptarbu:hover {
+    border-color: #FFFFFF;
+    box-sizing: content-box;
+    box-shadow: 2px 2px 20px #052051;
+    border-radius: 5px;
+}
+
+.desencriptarbu {
+    width: 250px;
+    height: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1px;
+    text-align: center;
+    color: #052051;
+    flex: none;
+    order: 0;
+    background-color: #AAB2D5;
+    margin-right: 15px;
+}
+
+.desencriptarbu:hover {
+    border-color: #052051;
+    box-sizing: content-box;
+    box-shadow: 2px 2px 20px #052051;
+    border-radius: 5px;
+}
+
+
+.copiar {
+    width: 250px;
+    height: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1px;
+    text-align: center;
+    color: #052051;
+    flex: none;
+    order: 0;
+    background-color: #AAB2D5;
+    margin-left: 220px;
+    margin-top: 50px;
+}
+.copiar:hover {
+    border-color: #052051;
+    box-sizing: content-box;
+    box-shadow: 2px 2px 20px #052051;
+    border-radius: 5px;
+}
+
+.solucion {
+    background: #FFFFFF;
+    background-image: url("imagenes/muñeco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #052051;
+    margin-left: 98px;
+    margin-top: 90px;
+    padding-left: 20px;
+}
+
+
+.solucion:focus {
+    outline: none;
+}
+
+
